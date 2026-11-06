@@ -18,6 +18,7 @@ open import chapter-4.inclusion-of-positive-integers public
 open import chapter-4.induction-cartesian-product-types public
 open import chapter-4.induction-dependent-pair-types public
 open import chapter-4.integers public
+open import chapter-4.left-zero-product-property-cartesian-product-types public
 open import chapter-4.map-left-unit-law-coproduct public
 open import chapter-4.map-right-unit-law-coproduct public
 open import chapter-4.negation public
@@ -27,10 +28,12 @@ open import chapter-4.one-integer public
 open import chapter-4.raised-unit-type public
 open import chapter-4.recursion-cartesian-product-types public
 open import chapter-4.recursion-dependent-pair-types public
+open import chapter-4.right-zero-product-property-cartesian-product-types public
 open import chapter-4.split-induction-integers public
 open import chapter-4.successor-function-integers public
 open import chapter-4.terminal-map public
 open import chapter-4.triple-negation public
+open import chapter-4.type-families-over-dependent-pair-types public
 open import chapter-4.uncurrying public
 open import chapter-4.unit-type public
 open import chapter-4.zero-integer public
