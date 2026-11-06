@@ -21,6 +21,7 @@ open import chapter-4.negative-one-integer public
 open import chapter-4.nonempty-types public
 open import chapter-4.one-integer public
 open import chapter-4.raised-unit-type public
+open import chapter-4.split-induction-integers public
 open import chapter-4.terminal-map public
 open import chapter-4.triple-negation public
 open import chapter-4.unit-type public
