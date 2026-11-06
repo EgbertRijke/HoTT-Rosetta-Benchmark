@@ -11,7 +11,7 @@ open import section-3-2-addition-natural-numbers
 
 Define the **binomial coefficient**  `(n choose k)` for any `n k : ℕ`, making sure that `(n choose k) ≐ 0` when `n < k`.
 
-## Solution 
+## Formalization
 
 ```agda
 binomial-coefficient-ℕ : ℕ → ℕ → ℕ
