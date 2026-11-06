@@ -4,7 +4,7 @@
 module exercise-3-5-fibonacci-by-induction-principle where
 
 open import section-3-1-natural-numbers
-open import section-3-1-induction-natural-numbers
+open import section-3-1-recursion-natural-numbers
 open import section-3-2-addition-natural-numbers
 ```
 
@@ -20,17 +20,12 @@ Use the induction principle of `ℕ` to define the **Fibonacci sequence** as a f
 
 ## Remark
 
-This exercise specifically asks the solver to use `ind-ℕ`; the usual definition by pattern matching therefore doesn't count as a solution.
+This exercise specifically asks the solver to use `ind-ℕ`; the usual definition by pattern matching therefore doesn't count as a solution. Since `rec-ℕ` is defined as an instance of `ind-ℕ`, we permit ourselves to use `rec-ℕ`.
 
 ## Formalization
 
 ```agda
-function-inductive-fibonacci : ℕ → ℕ → ℕ → ℕ
-function-inductive-fibonacci =
-  ind-ℕ
-    ( λ a b → a)
-    ( λ _ f a b → f b (b +ℕ a))
-
 inductive-fibonacci : ℕ → ℕ
-inductive-fibonacci n = function-inductive-fibonacci n 0 1
+inductive-fibonacci n = 
+  rec-ℕ (λ a b → a) (λ _ f a b → f b (b +ℕ a)) n 0 1
 ```
