@@ -28,6 +28,7 @@ open import chapter-4.split-induction-integers public
 open import chapter-4.successor-function-integers public
 open import chapter-4.terminal-map public
 open import chapter-4.triple-negation public
+open import chapter-4.uncurrying public
 open import chapter-4.unit-type public
 open import chapter-4.zero-integer public
 ```
