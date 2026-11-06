@@ -1,11 +1,11 @@
 # The terminal map
 
 ```agda
-module terminal-map where
+module chapter-4.terminal-map where
 
 open import universe-levels
-open import definition-4-2-1-unit-type
-open import exercise-2-3-constant-maps
+open import chapter-4.unit-type
+open import chapter-2.constant-maps
 ```
 
 ## Statement

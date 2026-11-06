@@ -1,9 +1,9 @@
 # Addition on the Natural Numbers
 
 ```agda
-module section-3-2-addition-natural-numbers where
+module chapter-3.addition-natural-numbers where
 
-open import section-3-1-natural-numbers
+open import chapter-3.natural-numbers
 ```
 
 ## Statement

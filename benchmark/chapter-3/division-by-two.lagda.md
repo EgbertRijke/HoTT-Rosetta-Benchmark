@@ -1,9 +1,9 @@
 # Division by Two
 
 ```agda
-module exercise-3-6-division-by-two where
+module chapter-3.division-by-two where
 
-open import section-3-1-natural-numbers
+open import chapter-3.natural-numbers
 ```
 
 ## Statement

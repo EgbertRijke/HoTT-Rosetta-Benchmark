@@ -1,11 +1,11 @@
 # The Fibonacci Sequence by the Induction Principle
 
 ```agda
-module exercise-3-5-fibonacci-by-induction-principle where
+module chapter-3.fibonacci-sequence-by-induction-principle where
 
-open import section-3-1-natural-numbers
-open import section-3-1-recursion-natural-numbers
-open import section-3-2-addition-natural-numbers
+open import chapter-3.natural-numbers
+open import chapter-3.recursion-natural-numbers
+open import chapter-3.addition-natural-numbers
 ```
 
 ## Statement

@@ -1,7 +1,7 @@
 # The Unit Type
 
 ```agda
-module definition-4-2-1-unit-type where
+module chapter-4.unit-type where
 
 open import universe-levels
 ```

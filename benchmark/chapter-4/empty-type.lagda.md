@@ -1,7 +1,7 @@
 # The Empty Type
 
 ```agda
-module definition-4-3-1-empty-type where
+module chapter-4.empty-type where
 
 open import universe-levels
 ```

@@ -1,9 +1,9 @@
 # The Binary Minimum of Natural Numbers
 
 ```agda
-module exercise-3-2-minimum-natural-numbers where
+module chapter-3.minimum-natural-numbers where
 
-open import section-3-1-natural-numbers
+open import chapter-3.natural-numbers
 ```
 
 ## Statement
@@ -11,7 +11,7 @@ open import section-3-1-natural-numbers
 Define the binary **min** function
 
 ```text
-    min-ℕ : ℕ → (ℕ → ℕ).
+  min-ℕ : ℕ → (ℕ → ℕ).
 ```
 
 ## Formalization

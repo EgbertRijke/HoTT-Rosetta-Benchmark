@@ -1,7 +1,7 @@
 # The type of natural numbers
 
 ```agda
-module section-3-1-natural-numbers where
+module chapter-3.natural-numbers where
 
 open import universe-levels
 ```

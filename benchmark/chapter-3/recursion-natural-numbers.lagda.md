@@ -1,11 +1,11 @@
 # The Recursion Principle for the Natural Numbers
 
 ```agda
-module section-3-1-recursion-natural-numbers where
+module chapter-3.recursion-natural-numbers where
 
 open import universe-levels
-open import section-3-1-natural-numbers
-open import section-3-1-induction-natural-numbers
+open import chapter-3.natural-numbers
+open import chapter-3.induction-natural-numbers
 ```
 
 ## Statement

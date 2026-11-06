@@ -1,10 +1,10 @@
 # Diagonal Maps
 
 ```agda
-module diagonal-maps where
+module chapter-2.diagonal-maps where
 
 open import universe-levels
-open import exercise-2-3-constant-maps
+open import chapter-2.constant-maps
 ```
 
 ## Statement

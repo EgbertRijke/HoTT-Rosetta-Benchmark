@@ -1,10 +1,10 @@
 # Ex Falso Quodlibet
 
 ```
-module definition-4-3-1-ex-falso where
+module chapter-4.ex-falso where
 
 open import universe-levels
-open import definition-4-3-1-empty-type
+open import chapter-4.empty-type
 ```
 
 ## Statement

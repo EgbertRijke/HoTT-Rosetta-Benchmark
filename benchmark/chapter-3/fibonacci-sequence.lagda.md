@@ -1,7 +1,10 @@
 # The Fibonacci Sequence
 
 ```agda
-module section-3-3-fibonacci-sequence where
+module chapter-3.fibonacci-sequence where
+
+open import chapter-3.natural-numbers
+open import chapter-3.addition-natural-numbers
 ```
 
 ## Statement

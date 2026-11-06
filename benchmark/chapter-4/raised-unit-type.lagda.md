@@ -1,11 +1,11 @@
 # The Raised Unit Type
 
 ```agda
-module raised-unit-type where
+module chapter-4.raised-unit-type where
 
 open import universe-levels
-open import exercise-2-3-constant-maps
-open import definition-4-2-1-unit-type
+open import chapter-2.constant-maps
+open import chapter-4.unit-type
 ```
 
 ## Statement

@@ -1,10 +1,10 @@
 # The Binomial Coefficients
 
 ```agda
-module exercise-3-4-binomial-coefficients where
+module chapter-3.binomial-coefficients where
 
-open import section-3-1-natural-numbers
-open import section-3-2-addition-natural-numbers
+open import chapter-3.natural-numbers
+open import chapter-3.addition-natural-numbers
 ```
 
 ## Statement

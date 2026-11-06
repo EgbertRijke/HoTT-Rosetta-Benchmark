@@ -1,10 +1,10 @@
 # The Characteristic Map of a Point
 
 ```agda
-module section-4-2-characteristic-map-of-a-point where
+module chapter-4.characteristic-map-of-a-point where
 
 open import universe-levels
-open import definition-4-2-1-unit-type
+open import chapter-4.unit-type
 ```
 
 ## Statement

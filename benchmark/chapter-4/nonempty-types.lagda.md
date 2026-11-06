@@ -1,10 +1,10 @@
 # Nonempty Types
 
 ```agda
-module definition-4-3-2-nonempty-types where
+module chapter-4.nonempty-types where
 
 open import universe-levels
-open import definition-4-3-2-empty-types
+open import chapter-4.empty-types
 ```
 
 ## Statement

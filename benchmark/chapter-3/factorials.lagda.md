@@ -1,10 +1,10 @@
 # Factorials
 
 ```agda
-module exercise-3-3-factorials where
+module chapter-3.factorials where
 
-open import section-3-1-natural-numbers
-open import exercise-3-1-multiplication-natural-numbers
+open import chapter-3.natural-numbers
+open import chapter-3.multiplication-natural-numbers
 ```
 
 ## Statement

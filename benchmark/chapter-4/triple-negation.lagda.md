@@ -1,11 +1,11 @@
 # Triple Negation
 
 ```agda
-module remark-4-3-3-triple-negation where
+module chapter-4.triple-negation where
 
 open import universe-levels
-open import definition-4-3-2-negation
-open import remark-4-3-3-double-negation
+open import chapter-4.negation
+open import chapter-4.double-negation
 ```
 
 ## Statement

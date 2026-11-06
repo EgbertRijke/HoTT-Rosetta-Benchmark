@@ -1,10 +1,10 @@
 # The Triangular Numbers
 
 ```agda
-module exercise-3-3-triangular-numbers where
+module chapter-3.triangular-numbers where
 
-open import section-3-1-natural-numbers
-open import section-3-2-addition-natural-numbers
+open import chapter-3.natural-numbers
+open import chapter-3.addition-natural-numbers
 ```
 
 ## Statement

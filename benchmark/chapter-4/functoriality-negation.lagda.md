@@ -1,10 +1,10 @@
 # Functoriality of Negation
 
 ```agda
-module proposition-4-3-4-functoriality-negation where
+module chapter-4.functoriality-negation where
 
 open import universe-levels
-open import definition-4-3-2-negation
+open import chapter-4.negation
 ```
 
 ## Statement

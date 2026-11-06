@@ -1,7 +1,7 @@
 # Constant Maps
 
 ```agda
-module exercise-2-3-constant-maps where
+module chapter-2.constant-maps where
 
 open import universe-levels
 ```
