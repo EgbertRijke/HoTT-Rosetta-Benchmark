@@ -9,6 +9,7 @@ open import chapter-4.double-negation public
 open import chapter-4.empty-type public
 open import chapter-4.empty-types public
 open import chapter-4.ex-falso public
+open import chapter-4.functoriality-coproduct-types public
 open import chapter-4.functoriality-negation public
 open import chapter-4.negation public
 open import chapter-4.nonempty-types public
