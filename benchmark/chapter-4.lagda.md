@@ -4,6 +4,7 @@
 module chapter-4 where
 
 open import chapter-4.characteristic-map-of-a-point public
+open import chapter-4.coproduct-types public
 open import chapter-4.double-negation public
 open import chapter-4.empty-type public
 open import chapter-4.empty-types public
