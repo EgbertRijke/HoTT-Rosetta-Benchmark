@@ -10,7 +10,7 @@ open import definition-4-2-1-unit-type
 
 ## Statement
 
-The unit type raised to a universe `UU l` is a type in `UU l` equivalent to the unit type. Its element is called `raise-star`.
+The unit type raised to a universe `UU l` is a type in `UU l` defined using the `raise` operation. Its element is called `raise-star`.
 
 ## Formalization
 
