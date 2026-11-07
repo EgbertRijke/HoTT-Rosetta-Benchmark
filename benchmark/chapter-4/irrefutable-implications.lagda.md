@@ -16,10 +16,6 @@ open import chapter-4.negation
 
 An implication `B → A` is irrefutable if and only if it is implied by the decidability of `A`.
 
-## Remark
-
-In the formalization below we see an important organizational principle that is upheld in agda-unimath: When an entry consists of several components, it is beneficial to split each component into its own entry.
-
 ## Formalization
 
 ```agda
@@ -46,3 +42,7 @@ module _
   pr2 logical-equivalence-irrefutable-implication =
     backward-implication-irrefutable-implication
 ```
+
+## Remark
+
+In the formalization below we see an important organizational principle that is upheld in agda-unimath: When an entry consists of several components, it is beneficial to split each component into its own entry.

@@ -9,15 +9,11 @@ open import chapter-3.addition-natural-numbers
 
 ## Statement
 
-Define the Fibonacci sequence `F : ℕ → ℕ`.
-
-## Construction
-
-The **Fibonacci sequence** `F : ℕ → ℕ` is defined by
+Define the Fibonacci sequence `F : ℕ → ℕ`, satisfying the following definitional equalities:
 
 ```text
-                  F(0) ≔ 0
-                  F(1) ≔ 1
+                  F(0) ≔ 0,
+                  F(1) ≔ 1,
   F(succ-ℕ(succ-ℕ(n))) ≔ F(succ-ℕ(n)) + F(n).
 ```
 

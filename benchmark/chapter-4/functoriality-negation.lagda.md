@@ -15,6 +15,13 @@ For any two types `P` and `Q`, there is a function
   (P → Q) → (¬ Q → ¬ P).
 ```
 
+## Formalization
+
+```agda
+map-neg : {l1 l2 : Level} {P : UU l1} {Q : UU l2} → (P → Q) → (¬ Q → ¬ P)
+map-neg f nq p = nq (f p)
+```
+
 ## Proof
 
 The desired function is defined by `λ`-abstraction, so we begin by assuming that we have a function `f : P → Q`.
@@ -41,11 +48,3 @@ The function we have constructed is
 ```text
   λ f. λ q̃. λ p. q̃(f(p)) : (P → Q) → (¬ Q → ¬ P). □
 ```
-
-## Formalization
-
-```agda
-map-neg : {l1 l2 : Level} {P : UU l1} {Q : UU l2} → (P → Q) → (¬ Q → ¬ P)
-map-neg f nq p = nq (f p)
-```
-

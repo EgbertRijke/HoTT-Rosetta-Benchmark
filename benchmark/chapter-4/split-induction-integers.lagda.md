@@ -37,10 +37,6 @@ where the types of `p₋₁`, `p_-S`, `p₀`, `p₁`, and `p_S` have the followi
   p_S  : Π(n : ℕ) P(in-pos-ℤ(n)) → P(in-pos-ℤ(succ-ℕ(n))).
 ```
 
-## Remark
-
-An induction principle more deserving of the name "integer induction" will be derived in chapter 22.
-
 ## Formalization
 
 ```agda
@@ -60,3 +56,7 @@ ind-ℤ P p-1 p-S p0 p1 pS (inr (inr zero-ℕ)) = p1
 ind-ℤ P p-1 p-S p0 p1 pS (inr (inr (succ-ℕ x))) =
   pS x (ind-ℤ P p-1 p-S p0 p1 pS (inr (inr x)))
 ```
+
+## Remark
+
+An induction principle more deserving of the name "integer induction" will be derived in chapter 22.

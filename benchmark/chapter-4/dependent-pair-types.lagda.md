@@ -16,10 +16,6 @@ type `Σ(x : A) B(x)` equipped with a **pairing function**
   _,_ : Π(x : A) (B(x) → Σ(y : A) B(y)).
 ```
 
-## Remark
-
-We follow the convention of agda-unimath and define `Σ A B` as a **record type**, even though the natural language specification declares dependent pair types to be inductive.
-
 ## Formalization
 
 ```agda
@@ -36,3 +32,8 @@ open Σ public
 {-# BUILTIN SIGMA Σ #-}
 {-# INLINE _,_ #-}
 ```
+
+## Remark
+
+We follow the convention of agda-unimath and define `Σ A B` as a **record type**, even though the natural language specification declares dependent pair types to be inductive.
+

@@ -12,22 +12,17 @@ open import chapter-3.addition-natural-numbers
 Define the **multiplication** operation
 
 ```text
-  mul-ℕ : ℕ → (ℕ → ℕ).
+  mul-ℕ : ℕ → ℕ → ℕ.
 ```
 
 ## Formalization
 
 ```agda
-mul-ℕ : ℕ → ℕ → ℕ
-mul-ℕ 0 n = 0
-mul-ℕ (succ-ℕ m) n = (mul-ℕ m n) +ℕ n
-```
-
-## Syntax
-
-```agda
 infixl 40 _*ℕ_
-_*ℕ_ = mul-ℕ
+
+_*ℕ_ : ℕ → ℕ → ℕ
+0 *ℕ n = 0
+succ-ℕ m *ℕ n = (m *ℕ n) +ℕ n
 
 {-# BUILTIN NATTIMES _*ℕ_ #-}
 ```

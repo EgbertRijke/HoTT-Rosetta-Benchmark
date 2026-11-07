@@ -17,10 +17,6 @@ open import chapter-4.booleans
   false false ↦ false.
 ```
 
-## Remark
-
-In the formalization below we will give a function that evaluates as specified, but its definition uses pattern matching in only one variable.
-
 ## Formalization
 
 ```agda
@@ -29,3 +25,6 @@ conjunction-bool true q = q
 conjunction-bool false q = false
 ```
 
+## Remark
+
+In the formalization below we will give a function that evaluates as specified, but its definition uses pattern matching in only one variable.

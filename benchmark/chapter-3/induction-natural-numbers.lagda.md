@@ -13,7 +13,7 @@ The induction principle of `ℕ` can be stated as the following inference rule
 
 ```text
    Γ, n : ℕ ⊢ P(n) type
-  ------------------------------------------------------------------
+  --------------------------------------------------------------------
    Γ ⊢ ind-ℕ : P(0) → (Π(n : ℕ) P(n) → P(succ-ℕ(n))) → Π(n : ℕ) P(n).
 ```
 

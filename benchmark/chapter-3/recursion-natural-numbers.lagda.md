@@ -13,8 +13,8 @@ open import chapter-3.induction-natural-numbers
 The recursion principle of `ℕ` can be stated as the following inference rule
 
 ```text
-   Γ, ⊢ A type
-  ------------------------------------------------------------------
+   Γ ⊢ A type
+  ----------------------------------------
    Γ ⊢ rec-ℕ : A → (ℕ → A → A) → (ℕ → A).
 ```
 

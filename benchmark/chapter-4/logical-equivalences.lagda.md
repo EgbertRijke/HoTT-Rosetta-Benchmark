@@ -16,10 +16,6 @@ Two types `A` and `B` are said to be **logically equivalent** if there are funct
   A ↔ B ≔ (A → B) × (B → A).
 ```
 
-## Remark
-
-When introducing a structured type, it is customary to write semantic projections. We will include these in the formalization.
-
 ## Formalization
 
 ```agda
@@ -38,3 +34,8 @@ module _
   backward-implication : B → A
   backward-implication = pr2 H
 ```
+
+## Remark
+
+When introducing a structured type, it is customary to write semantic projections. We will include these in the formalization.
+
