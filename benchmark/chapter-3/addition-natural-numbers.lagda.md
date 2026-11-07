@@ -26,12 +26,11 @@ Introduce the notation `m + n` for `add-ℕ(m,n)`.
 ## Formalization
 
 ```agda
-add-ℕ : ℕ → ℕ → ℕ
-add-ℕ x 0 = x
-add-ℕ x (succ-ℕ y) = succ-ℕ (add-ℕ x y)
-
 infixl 35 _+ℕ_
-_+ℕ_ = add-ℕ
+
+_+ℕ_ : ℕ → ℕ → ℕ
+x +ℕ 0 = x
+x +ℕ succ-ℕ y = succ-ℕ (x +ℕ y)
 
 {-# BUILTIN NATPLUS _+ℕ_ #-}
 ```
