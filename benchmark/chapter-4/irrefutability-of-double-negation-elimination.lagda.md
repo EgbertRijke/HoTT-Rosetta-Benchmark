@@ -20,9 +20,9 @@ Double negation elimination, which asserts that `¬¬ A → A`, is irrefutable i
 ## Formalization
 
 ```agda
-double-negation-double-negation-elim :
-  {l : Level} {P : UU l} → ¬¬ (¬¬ P → P)
-double-negation-double-negation-elim {P = P} f =
-  ( λ (np : ¬ P) → f (λ (nnp : ¬¬ P) → ex-falso (nnp np)))
-  ( λ (p : P) → f (λ (nnp : ¬¬ P) → p))
+is-irrefutable-double-negation-elim :
+  {l : Level} {A : UU l} → ¬¬ (¬¬ A → A)
+is-irrefutable-double-negation-elim {A = A} f =
+  ( λ (na : ¬ A) → f (λ (nna : ¬¬ A) → ex-falso (nna na)))
+  ( λ (a : A) → f (λ (nna : ¬¬ A) → a))
 ```
