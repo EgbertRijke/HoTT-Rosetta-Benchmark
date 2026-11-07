@@ -12,6 +12,7 @@ open import chapter-4.coproduct-types public
 open import chapter-4.dependent-pair-types public
 open import chapter-4.disjunction-booleans public
 open import chapter-4.double-negation public
+open import chapter-4.double-negation-introduction public
 open import chapter-4.empty-type public
 open import chapter-4.empty-types public
 open import chapter-4.ex-falso public

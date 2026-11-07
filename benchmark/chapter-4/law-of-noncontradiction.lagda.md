@@ -16,6 +16,6 @@ The **law of noncontradiction** asserts that the type `A × ¬ A` is empty for a
 ## Formalization
 
 ```agda
-law-of-non-contradiction : {l : Level} {P : UU l} → ¬ (P × ¬ P)
-law-of-non-contradiction (p , np) = np p
+law-of-non-contradiction : {l : Level} {A : UU l} → ¬ (A × ¬ A)
+law-of-non-contradiction (a , f) = f a
 ```
