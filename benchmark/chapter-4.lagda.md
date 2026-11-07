@@ -9,6 +9,7 @@ open import chapter-4.cartesian-product-types public
 open import chapter-4.characteristic-map-of-a-point public
 open import chapter-4.conjunction-booleans public
 open import chapter-4.coproduct-types public
+open import chapter-4.decidability-implies-double-negation-elimination public
 open import chapter-4.dependent-pair-types public
 open import chapter-4.disjunction-booleans public
 open import chapter-4.double-negation public
