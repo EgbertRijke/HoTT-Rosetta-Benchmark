@@ -16,7 +16,7 @@ open import chapter-4.negation
 The Gödel­Dummett axiom, which asserts that there is an element of type `(A → B) + (B → A)`, is irrefutable in the sense that there is an element of type
 
 ```text
-  ¬¬ ((A → B) + (B → A))
+  ¬¬ ((A → B) + (B → A)).
 ```
 
 ## Formalization
