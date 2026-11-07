@@ -40,6 +40,7 @@ open import chapter-4.raised-unit-type public
 open import chapter-4.recursion-cartesian-product-types public
 open import chapter-4.recursion-dependent-pair-types public
 open import chapter-4.right-zero-product-property-cartesian-product-types public
+open import chapter-4.russells-law public
 open import chapter-4.split-induction-integers public
 open import chapter-4.successor-function-integers public
 open import chapter-4.terminal-map public
