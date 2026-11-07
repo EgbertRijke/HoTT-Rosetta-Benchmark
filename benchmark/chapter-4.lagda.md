@@ -17,6 +17,7 @@ open import chapter-4.functoriality-coproduct-types public
 open import chapter-4.functoriality-negation public
 open import chapter-4.inclusion-of-negative-integers public
 open import chapter-4.inclusion-of-positive-integers public
+open import chapter-4.induction-booleans public
 open import chapter-4.induction-cartesian-product-types public
 open import chapter-4.induction-dependent-pair-types public
 open import chapter-4.integers public
