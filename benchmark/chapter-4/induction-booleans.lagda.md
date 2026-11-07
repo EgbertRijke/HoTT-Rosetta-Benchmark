@@ -28,6 +28,6 @@ hold.
 
 ```agda
 ind-bool : {l : Level} (P : bool → UU l) → P true → P false → (b : bool) → P b
-ind-bool P pt pf true = pt
-ind-bool P pt pf false = pf
+ind-bool P p₁ p₀ true = p₁
+ind-bool P p₁ p₀ false = p₀
 ```
