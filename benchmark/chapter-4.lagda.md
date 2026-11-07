@@ -4,9 +4,11 @@
 module chapter-4 where
 
 open import chapter-4.addition-integers public
+open import chapter-4.binary-functoriality-double-negation public
 open import chapter-4.booleans public
 open import chapter-4.cartesian-product-types public
 open import chapter-4.characteristic-map-of-a-point public
+open import chapter-4.composition-logical-equivalences public
 open import chapter-4.conjunction-booleans public
 open import chapter-4.coproduct-types public
 open import chapter-4.decidability-implies-double-negation-elimination public
@@ -17,6 +19,9 @@ open import chapter-4.double-negation-elimination-cartesian-product-types public
 open import chapter-4.double-negation-elimination-function-types public
 open import chapter-4.double-negation-elimination-negated-types public
 open import chapter-4.double-negation-introduction public
+open import chapter-4.double-negation-translation-cartesian-product-types public
+open import chapter-4.double-negation-translation-coproduct-types public
+open import chapter-4.double-negation-translation-function-types public
 open import chapter-4.empty-type public
 open import chapter-4.empty-types public
 open import chapter-4.ex-falso public
@@ -29,6 +34,7 @@ open import chapter-4.induction-booleans public
 open import chapter-4.induction-cartesian-product-types public
 open import chapter-4.induction-dependent-pair-types public
 open import chapter-4.integers public
+open import chapter-4.inverse-logical-equivalences public
 open import chapter-4.irrefutability-of-decidability public
 open import chapter-4.irrefutability-of-double-negation-elimination public
 open import chapter-4.irrefutability-of-godel-dummett public
@@ -37,6 +43,7 @@ open import chapter-4.irrefutable-implications public
 open import chapter-4.kleisli-extension-double-negation public
 open import chapter-4.law-of-noncontradiction public
 open import chapter-4.left-zero-product-property-cartesian-product-types public
+open import chapter-4.logical-equivalence-reasoning public
 open import chapter-4.logical-equivalences public
 open import chapter-4.map-left-unit-law-coproduct public
 open import chapter-4.map-right-unit-law-coproduct public
