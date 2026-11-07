@@ -17,6 +17,7 @@ open import chapter-4.empty-type public
 open import chapter-4.empty-types public
 open import chapter-4.ex-falso public
 open import chapter-4.functoriality-coproduct-types public
+open import chapter-4.functoriality-double-negation public
 open import chapter-4.functoriality-negation public
 open import chapter-4.inclusion-of-negative-integers public
 open import chapter-4.inclusion-of-positive-integers public
