@@ -30,10 +30,11 @@ open import chapter-4.irrefutability-of-decidability public
 open import chapter-4.irrefutability-of-double-negation-elimination public
 open import chapter-4.irrefutability-of-godel-dummett public
 open import chapter-4.irrefutability-of-peirces-law public
+open import chapter-4.irrefutable-implications public
 open import chapter-4.kleisli-extension-double-negation public
 open import chapter-4.law-of-noncontradiction public
 open import chapter-4.left-zero-product-property-cartesian-product-types public
-open import chapter-4.logical-equivalence public
+open import chapter-4.logical-equivalences public
 open import chapter-4.map-left-unit-law-coproduct public
 open import chapter-4.map-right-unit-law-coproduct public
 open import chapter-4.multiplication-integers public

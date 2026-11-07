@@ -1,7 +1,7 @@
 # Logical Equivalence of Types
 
 ```agda
-module chapter-4.logical-equivalence where
+module chapter-4.logical-equivalences where
 
 open import universe-levels
 open import chapter-4.cartesian-product-types

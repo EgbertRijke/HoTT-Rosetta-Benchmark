@@ -4,7 +4,7 @@
 module chapter-4.russells-law where
 
 open import universe-levels
-open import chapter-4.logical-equivalence
+open import chapter-4.logical-equivalences
 open import chapter-4.negation
 ```
 
