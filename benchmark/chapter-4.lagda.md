@@ -26,6 +26,7 @@ open import chapter-4.induction-cartesian-product-types public
 open import chapter-4.induction-dependent-pair-types public
 open import chapter-4.integers public
 open import chapter-4.irrefutability-of-double-negation-elimination public
+open import chapter-4.irrefutability-of-godel-dummett public
 open import chapter-4.irrefutability-of-peirces-law public
 open import chapter-4.kleisli-extension-double-negation public
 open import chapter-4.law-of-noncontradiction public

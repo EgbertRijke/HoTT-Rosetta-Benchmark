@@ -24,9 +24,9 @@ module _
   {l1 l2 : Level} {A : UU l1} {B : UU l2}
   where
 
-  double-negation-peirces-law :
+  is-irrefutable-peirces-law :
     ¬¬ (((A → B) → A) → A)
-  double-negation-peirces-law f =
-    ( λ (na : ¬ A) → f (λ h → h (λ a → ex-falso (na a))))
-    ( λ (a : A) → f (λ _ → a))
+  is-irrefutable-peirces-law f =
+    ( λ na → f (λ h → h (λ a → ex-falso (na a))))
+    ( λ a → f (λ _ → a))
 ```
