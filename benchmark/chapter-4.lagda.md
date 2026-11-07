@@ -25,6 +25,7 @@ open import chapter-4.negation public
 open import chapter-4.negative-one-integer public
 open import chapter-4.nonempty-types public
 open import chapter-4.one-integer public
+open import chapter-4.predecessor-function-integers public
 open import chapter-4.raised-unit-type public
 open import chapter-4.recursion-cartesian-product-types public
 open import chapter-4.recursion-dependent-pair-types public
