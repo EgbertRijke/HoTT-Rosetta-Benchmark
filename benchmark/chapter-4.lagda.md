@@ -10,6 +10,7 @@ open import chapter-4.characteristic-map-of-a-point public
 open import chapter-4.conjunction-booleans public
 open import chapter-4.coproduct-types public
 open import chapter-4.dependent-pair-types public
+open import chapter-4.disjunction-booleans public
 open import chapter-4.double-negation public
 open import chapter-4.empty-type public
 open import chapter-4.empty-types public
@@ -23,6 +24,7 @@ open import chapter-4.induction-cartesian-product-types public
 open import chapter-4.induction-dependent-pair-types public
 open import chapter-4.integers public
 open import chapter-4.left-zero-product-property-cartesian-product-types public
+open import chapter-4.logical-equivalence public
 open import chapter-4.map-left-unit-law-coproduct public
 open import chapter-4.map-right-unit-law-coproduct public
 open import chapter-4.multiplication-integers public
