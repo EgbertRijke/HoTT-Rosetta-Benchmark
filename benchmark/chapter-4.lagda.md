@@ -4,6 +4,7 @@
 module chapter-4 where
 
 open import chapter-4.addition-integers public
+open import chapter-4.booleans public
 open import chapter-4.cartesian-product-types public
 open import chapter-4.characteristic-map-of-a-point public
 open import chapter-4.coproduct-types public
