@@ -22,6 +22,7 @@ open import chapter-4.integers public
 open import chapter-4.left-zero-product-property-cartesian-product-types public
 open import chapter-4.map-left-unit-law-coproduct public
 open import chapter-4.map-right-unit-law-coproduct public
+open import chapter-4.multiplication-integers public
 open import chapter-4.negation public
 open import chapter-4.negative-function-integers public
 open import chapter-4.negative-one-integer public
