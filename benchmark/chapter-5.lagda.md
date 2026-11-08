@@ -6,6 +6,7 @@ module chapter-5 where
 open import chapter-5.associator-concatenation-identifications public
 open import chapter-5.based-postconcatenation-identifications public
 open import chapter-5.based-preconcatenation-identifications public
+open import chapter-5.commuting-triangles-identifications public
 open import chapter-5.concatenation-identifications public
 open import chapter-5.equational-reasoning public
 open import chapter-5.identity-types public
@@ -19,6 +20,7 @@ open import chapter-5.left-unit-law-concatenation-identifications public
 open import chapter-5.left-unwhiskering-concatenation-identifications public
 open import chapter-5.left-whiskering-concatenation-identifications public
 open import chapter-5.negated-equality public
+open import chapter-5.opposite-commuting-triangles-identifications public
 open import chapter-5.right-inverse-law-concatenation-identifications public
 open import chapter-5.right-unit-law-concatenation-identifications public
 open import chapter-5.right-unwhiskering-concatenation-identifications public
