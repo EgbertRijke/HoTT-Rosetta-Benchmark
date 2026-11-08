@@ -14,7 +14,7 @@ open import chapter-5.injectivity-based-preconcatenation-identifications
 The **left unwhiskering operation** with respect to concatenation of identifications is a function
 
 ```text
-  (q ＝ r) → (p ∙ q ＝ p ∙ r)
+  (p ∙ q ＝ p ∙ r) → (q ＝ r)
 ```
 
 for any identification `p : x ＝ y` and any pair of identifications `q r : y ＝ z`.

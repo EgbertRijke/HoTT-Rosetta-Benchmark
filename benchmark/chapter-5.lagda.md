@@ -21,4 +21,6 @@ open import chapter-5.left-whiskering-concatenation-identifications public
 open import chapter-5.negated-equality public
 open import chapter-5.right-inverse-law-concatenation-identifications public
 open import chapter-5.right-unit-law-concatenation-identifications public
+open import chapter-5.right-unwhiskering-concatenation-identifications public
+open import chapter-5.right-whiskering-concatenation-identifications public
 ```
