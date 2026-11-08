@@ -16,6 +16,7 @@ open import chapter-5.injectivity-based-preconcatenation-identifications public
 open import chapter-5.injectivity-based-postconcatenation-identifications public
 open import chapter-5.inverting-identifications public
 open import chapter-5.involutiveness-inverting-identifications public
+open import chapter-5.left-absorption-law-right-whiskering-concatenation-identifications public
 open import chapter-5.left-inverse-law-concatenation-identifications public
 open import chapter-5.left-unit-law-concatenation-identifications public
 open import chapter-5.left-unit-law-left-whiskering-concatenation-identifications public
@@ -26,6 +27,7 @@ open import chapter-5.opposite-commuting-triangles-identifications public
 open import chapter-5.right-absorption-law-left-whiskering-concatenation-identifications public
 open import chapter-5.right-inverse-law-concatenation-identifications public
 open import chapter-5.right-unit-law-concatenation-identifications public
+open import chapter-5.right-unit-law-right-whiskering-concatenation-identifications public
 open import chapter-5.right-unwhiskering-concatenation-identifications public
 open import chapter-5.right-whiskering-concatenation-identifications public
 ```
