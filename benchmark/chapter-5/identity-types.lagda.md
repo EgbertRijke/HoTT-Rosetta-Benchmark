@@ -28,5 +28,3 @@ module _
 
 {-# BUILTIN EQUALITY _＝_ #-}
 ```
-
-
