@@ -4,6 +4,7 @@
 module chapter-5 where
 
 open import chapter-5.action-on-concatenated-identifications-functions public
+open import chapter-5.action-on-identifications-addition-natural-numbers public
 open import chapter-5.action-on-identifications-binary-functions public
 open import chapter-5.action-on-identifications-composite-functions public
 open import chapter-5.action-on-identifications-dependent-functions public
@@ -13,9 +14,11 @@ open import chapter-5.action-on-identifications-identity-function public
 open import chapter-5.action-on-identifications-of-identifications-functions public
 open import chapter-5.action-on-inverted-identifications-functions public
 open import chapter-5.action-on-refl-functions public
+open import chapter-5.associativity-addition-natural-numbers public
 open import chapter-5.associator-concatenation-identifications public
 open import chapter-5.based-postconcatenation-identifications public
 open import chapter-5.based-preconcatenation-identifications public
+open import chapter-5.commutativity-addition-natural-numbers public
 open import chapter-5.commutativity-left-right-whiskering-concatenation-identifications public
 open import chapter-5.commuting-squares-identifications public
 open import chapter-5.commuting-triangles-identifications public
@@ -33,6 +36,8 @@ open import chapter-5.inverting-identifications public
 open import chapter-5.involutiveness-inverting-identifications public
 open import chapter-5.left-absorption-law-right-whiskering-concatenation-identifications public
 open import chapter-5.left-inverse-law-concatenation-identifications public
+open import chapter-5.left-successor-law-addition-natural-numbers public
+open import chapter-5.left-unit-law-addition-natural-numbers public
 open import chapter-5.left-unit-law-concatenation-identifications public
 open import chapter-5.left-unit-law-left-whiskering-concatenation-identifications public
 open import chapter-5.left-unwhiskering-concatenation-identifications public
@@ -42,6 +47,8 @@ open import chapter-5.opposite-commuting-triangles-identifications public
 open import chapter-5.reflexivity-dependent-identifications public
 open import chapter-5.right-absorption-law-left-whiskering-concatenation-identifications public
 open import chapter-5.right-inverse-law-concatenation-identifications public
+open import chapter-5.right-successor-law-addition-natural-numbers public
+open import chapter-5.right-unit-law-addition-natural-numbers public
 open import chapter-5.right-unit-law-concatenation-identifications public
 open import chapter-5.right-unit-law-right-whiskering-concatenation-identifications public
 open import chapter-5.right-unwhiskering-concatenation-identifications public
