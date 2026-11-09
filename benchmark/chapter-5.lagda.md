@@ -23,6 +23,7 @@ open import chapter-5.identity-types public
 open import chapter-5.induction-identity-types public
 open import chapter-5.injectivity-based-preconcatenation-identifications public
 open import chapter-5.injectivity-based-postconcatenation-identifications public
+open import chapter-5.inverse-transport-along-identifications public
 open import chapter-5.inverting-identifications public
 open import chapter-5.involutiveness-inverting-identifications public
 open import chapter-5.left-absorption-law-right-whiskering-concatenation-identifications public
@@ -39,4 +40,5 @@ open import chapter-5.right-unit-law-concatenation-identifications public
 open import chapter-5.right-unit-law-right-whiskering-concatenation-identifications public
 open import chapter-5.right-unwhiskering-concatenation-identifications public
 open import chapter-5.right-whiskering-concatenation-identifications public
+open import chapter-5.transport-along-identifications public
 ```
