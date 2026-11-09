@@ -6,6 +6,7 @@ module chapter-5 where
 open import chapter-5.associator-concatenation-identifications public
 open import chapter-5.based-postconcatenation-identifications public
 open import chapter-5.based-preconcatenation-identifications public
+open import chapter-5.commutativity-left-right-whiskering-concatenation-identifications public
 open import chapter-5.commuting-squares-identifications public
 open import chapter-5.commuting-triangles-identifications public
 open import chapter-5.concatenation-identifications public
