@@ -26,12 +26,14 @@ open import chapter-5.composing-transport-along-identifications public
 open import chapter-5.computing-maps-out-of-identity-types public
 open import chapter-5.concatenation-identifications public
 open import chapter-5.dependent-identifications public
+open import chapter-5.distributivity-inverses-over-concatenation-identifications public
 open import chapter-5.equational-reasoning public
 open import chapter-5.identity-types public
 open import chapter-5.induction-identity-types public
 open import chapter-5.injectivity-based-preconcatenation-identifications public
 open import chapter-5.injectivity-based-postconcatenation-identifications public
 open import chapter-5.inverse-transport-along-identifications public
+open import chapter-5.inverse-transposing-inverse-identifications-along-identifications public
 open import chapter-5.inverting-identifications public
 open import chapter-5.involutiveness-inverting-identifications public
 open import chapter-5.left-absorption-law-right-whiskering-concatenation-identifications public
@@ -58,5 +60,6 @@ open import chapter-5.transport-along-action-on-identifications-functions public
 open import chapter-5.transport-along-concatenated-identifications public
 open import chapter-5.transport-along-identifications public
 open import chapter-5.transport-along-identifications-constant-type-family public
+open import chapter-5.transposing-inverse-identifications-along-identifications public
 open import chapter-5.transposing-transport-along-inverse-identifications public
 ```
