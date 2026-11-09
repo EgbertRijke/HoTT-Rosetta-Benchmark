@@ -8,6 +8,7 @@ open import chapter-5.action-on-identifications-binary-functions public
 open import chapter-5.action-on-identifications-composite-functions public
 open import chapter-5.action-on-identifications-functions public
 open import chapter-5.action-on-identifications-identity-function public
+open import chapter-5.action-on-identifications-of-identifications-functions public
 open import chapter-5.action-on-inverted-identifications-functions public
 open import chapter-5.action-on-refl-functions public
 open import chapter-5.associator-concatenation-identifications public
