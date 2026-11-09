@@ -4,6 +4,7 @@
 module chapter-5 where
 
 open import chapter-5.action-on-concatenated-identifications-functions public
+open import chapter-5.action-on-identifications-binary-functions public
 open import chapter-5.action-on-identifications-composite-functions public
 open import chapter-5.action-on-identifications-functions public
 open import chapter-5.action-on-identifications-identity-function public
