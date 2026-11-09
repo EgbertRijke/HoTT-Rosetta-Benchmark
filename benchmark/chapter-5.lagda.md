@@ -44,6 +44,7 @@ open import chapter-5.left-unit-law-concatenation-identifications public
 open import chapter-5.left-unit-law-left-whiskering-concatenation-identifications public
 open import chapter-5.left-unwhiskering-concatenation-identifications public
 open import chapter-5.left-whiskering-concatenation-identifications public
+open import chapter-5.lifting-identifications-dependent-pair-types public
 open import chapter-5.negated-equality public
 open import chapter-5.opposite-commuting-triangles-identifications public
 open import chapter-5.reflexivity-dependent-identifications public
