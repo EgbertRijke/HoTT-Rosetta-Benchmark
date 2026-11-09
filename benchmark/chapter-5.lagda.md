@@ -6,6 +6,8 @@ module chapter-5 where
 open import chapter-5.action-on-concatenated-identifications-functions public
 open import chapter-5.action-on-identifications-binary-functions public
 open import chapter-5.action-on-identifications-composite-functions public
+open import chapter-5.action-on-identifications-dependent-functions public
+open import chapter-5.action-on-identifications-dependent-functions-constant-type-families public
 open import chapter-5.action-on-identifications-functions public
 open import chapter-5.action-on-identifications-identity-function public
 open import chapter-5.action-on-identifications-of-identifications-functions public
@@ -17,7 +19,10 @@ open import chapter-5.based-preconcatenation-identifications public
 open import chapter-5.commutativity-left-right-whiskering-concatenation-identifications public
 open import chapter-5.commuting-squares-identifications public
 open import chapter-5.commuting-triangles-identifications public
+open import chapter-5.composing-transport-along-identifications public
+open import chapter-5.computing-maps-out-of-identity-types public
 open import chapter-5.concatenation-identifications public
+open import chapter-5.dependent-identifications public
 open import chapter-5.equational-reasoning public
 open import chapter-5.identity-types public
 open import chapter-5.induction-identity-types public
@@ -34,11 +39,17 @@ open import chapter-5.left-unwhiskering-concatenation-identifications public
 open import chapter-5.left-whiskering-concatenation-identifications public
 open import chapter-5.negated-equality public
 open import chapter-5.opposite-commuting-triangles-identifications public
+open import chapter-5.reflexivity-dependent-identifications public
 open import chapter-5.right-absorption-law-left-whiskering-concatenation-identifications public
 open import chapter-5.right-inverse-law-concatenation-identifications public
 open import chapter-5.right-unit-law-concatenation-identifications public
 open import chapter-5.right-unit-law-right-whiskering-concatenation-identifications public
 open import chapter-5.right-unwhiskering-concatenation-identifications public
 open import chapter-5.right-whiskering-concatenation-identifications public
+open import chapter-5.substitution-law-for-transport-along-identifications public
+open import chapter-5.transport-along-action-on-identifications-functions public
+open import chapter-5.transport-along-concatenated-identifications public
 open import chapter-5.transport-along-identifications public
+open import chapter-5.transport-along-identifications-constant-type-family public
+open import chapter-5.transposing-transport-along-inverse-identifications public
 ```
