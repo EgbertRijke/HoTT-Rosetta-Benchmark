@@ -3,6 +3,9 @@
 ```agda
 module chapter-5 where
 
+open import chapter-5.action-on-identifications-composite-functions public
+open import chapter-5.action-on-identifications-functions public
+open import chapter-5.action-on-identifications-identity-function public
 open import chapter-5.associator-concatenation-identifications public
 open import chapter-5.based-postconcatenation-identifications public
 open import chapter-5.based-preconcatenation-identifications public
